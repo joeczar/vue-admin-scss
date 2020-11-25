@@ -3,10 +3,16 @@
 ## Project setup
 ```
 yarn install
+
+docker-compose exec backend sh
+
+./start.sh
 ```
 
 ### Compiles and hot-reloads for development
 ```
+docker-compose up
+
 yarn serve
 ```
 
